@@ -1,0 +1,1 @@
+nohup python ./train.py --device=cuda:0 --model_name=tc_lstm --l2reg=0.01 --num_epoch=50 --patience=10 --dropout=0.1 --dataset=restaurant --lr=0.0001 --batch_size=16 --valset_ratio=0.2  > train.log 2>&1 &
